@@ -41,6 +41,7 @@
     <Element collapsed="0" type="model" name="04-Desp02" visible="1"/>
     <Element collapsed="0" type="model" name="05-Cat01" visible="1"/>
     <Element collapsed="0" type="model" name="06-Cat02" visible="1"/>
+    <Element collapsed="0" type="model" name="07-Cat2" visible="1"/>
     <Element collapsed="0" type="model" name="07-Cat03" visible="1"/>
     <Element collapsed="0" type="model" name="08-Cat04" visible="1"/>
   </DisplayElements>
@@ -53,7 +54,7 @@
     </Element>
     <Element type="model" name="Catacumba">
       <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="50" endTime="11900" palette="0"/>
+        <Effect ref="0" name="On" startTime="50" endTime="11900" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Despacho">
@@ -63,7 +64,7 @@
     </Element>
     <Element type="model" name="Laboratorio">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="11850" palette="2"/>
+        <Effect ref="0" name="On" selected="1" startTime="0" endTime="11850" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="01-Lab01">
@@ -82,6 +83,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="06-Cat02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="07-Cat2">
       <EffectLayer/>
     </Element>
     <Element type="model" name="07-Cat03">

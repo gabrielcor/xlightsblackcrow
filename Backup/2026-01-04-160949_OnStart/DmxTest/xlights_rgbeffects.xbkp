@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrgb>
+  <models>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" name="08-Cat04" Controller="DmxLocal" WorldPosX="-7.9800" WorldPosY="265.5329" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:22">
+      <ControllerConnection Port="1" Protocol="OpenDMX" channel="22"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" name="07-Cat03" Controller="DmxLocal" WorldPosX="-355.4569" WorldPosY="265.5129" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:19">
+      <ControllerConnection Port="1" Protocol="OpenDMX" channel="19"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" name="06-Cat02" Controller="DmxLocal" WorldPosX="-492.9800" WorldPosY="256.6931" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:16">
+      <ControllerConnection Port="1" Protocol="OpenDMX" channel="16"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" name="05-Cat01" Controller="DmxLocal" WorldPosX="-810.0496" WorldPosY="256.6731" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:13">
+      <ControllerConnection Port="1" Protocol="OpenDMX" channel="13"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" name="04-Desp02" Controller="DmxLocal" WorldPosX="-165.1144" WorldPosY="784.8995" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:10">
+      <ControllerConnection Port="1" Protocol="OpenDMX" channel="10"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" name="03-Desp01" Controller="DmxLocal" WorldPosX="-721.5611" WorldPosY="809.6411" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:7">
+      <ControllerConnection Port="1" Protocol="OpenDMX" channel="7"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" name="02-Lab02" Controller="DmxLocal" WorldPosX="-320.9800" WorldPosY="1214.0597" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:4">
+      <ControllerConnection Port="1" Protocol="OpenDMX" channel="4"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" Controller="DmxLocal" name="01-Lab01" WorldPosX="-638.1220" WorldPosY="1214.0397" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:1">
+      <ControllerConnection Port="1" Protocol="OpenDMX"/>
+    </model>
+  </models>
+  <view_objects>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="7"/>
+  </view_objects>
+  <effects version="0007"/>
+  <views/>
+  <palettes/>
+  <modelGroups>
+    <modelGroup selected="0" name="Laboratorio" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="01-Lab01,02-Lab02" centrex="-394.065674" centrey="1163.087280" centreDefined="0" centreMinx="-552" centreMiny="1163" centreMaxx="-235" centreMaxy="1163"/>
+    <modelGroup selected="0" name="Despacho" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="03-Desp01,04-Desp02" centrex="-357.852417" centrey="746.307861" centreDefined="0" centreMinx="-636" centreMiny="733" centreMaxx="-79" centreMaxy="758"/>
+    <modelGroup selected="0" name="Catacumba" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="05-Cat01,06-Cat02,07-Cat03,08-Cat04" centrex="-323.529510" centrey="210.140533" centreDefined="0" centreMinx="-724" centreMiny="205" centreMaxx="77" centreMaxy="214"/>
+    <modelGroup selected="0" name="All Floods" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="01-Lab01,02-Lab02,03-Desp01,04-Desp02,05-Cat01,06-Cat02,07-Cat03,08-Cat04" centrex="-323.529510" centrey="684.403931" centreDefined="0" centreMinx="-724" centreMiny="205" centreMaxx="77" centreMaxy="1163"/>
+  </modelGroups>
+  <layoutGroups/>
+  <perspectives current="Default Perspective">
+    <perspective name="Default Perspective" settings="layout3|name=ModelPreview;caption=Model Preview;state=6293440;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=HousePreview;caption=House Preview;state=6293440;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=EffectAssist;caption=Effect Assist;state=2099198;dir=4;layer=1;row=0;pos=2;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=DisplayElements;caption=Display Elements;state=6293503;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=750;besth=1050;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=750;floath=1050;floatw_cli=-1;floath_cli=-1|name=Perspectives;caption=Perspectives;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=161;besth=155;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=Effect;caption=Effect Settings;state=2099196;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=524;besth=958;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=SelectEffect;caption=Select Effects;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=606;besth=465;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=SearchPanel;caption=Search Panel;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=576;besth=376;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=EffectDropper;caption=Effects;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=1300;besth=780;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=ValueCurveDropper;caption=Value Curves;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=50;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=ColourDropper;caption=Colours;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=Jukebox;caption=Jukebox;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=100;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=FindData;caption=Find Data;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=616;besth=214;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=Color;caption=Color;state=2099196;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=414;besth=446;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=LayerTiming;caption=Layer Blending;state=2099196;dir=1;layer=0;row=0;pos=1;prop=100000;bestw=320;besth=336;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=LayerSettings;caption=Layer Settings;state=2099196;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=268;besth=93;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=SequenceVideo;caption=Sequence Video;state=2099199;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=320;besth=225;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|name=Main Sequencer;caption=Main Sequencer;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=301;besth=234;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;floatw_cli=-1;floath_cli=-1|dock_size(4,1,0)=252|dock_size(4,0,1)=352|dock_size(1,0,0)=127|dock_size(5,0,0)=303|" version="2.0"/>
+  </perspectives>
+  <settings>
+    <LayoutMode3D value="0"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="720"/>
+  </settings>
+  <colors>
+    <DisabledEffect Red="200" Green="200" Blue="0"/>
+    <EffectDefault Red="192" Green="192" Blue="192"/>
+    <EffectSelected Red="204" Green="102" Blue="255"/>
+    <EffectSelectedDisabled Red="200" Green="200" Blue="64"/>
+    <EffectSelectedFixed Red="255" Green="128" Blue="0"/>
+    <EffectSelectedLocked Red="200" Green="128" Blue="152"/>
+    <GridDashes Red="255" Green="255" Blue="0"/>
+    <Gridlines Red="40" Green="40" Blue="40"/>
+    <LabelOutline Red="103" Green="103" Blue="103"/>
+    <Labels Red="255" Green="255" Blue="204"/>
+    <LayoutDashes Red="255" Green="255" Blue="0"/>
+    <LockedEffect Red="200" Green="0" Blue="0"/>
+    <ModelDefault Red="211" Green="211" Blue="211"/>
+    <ModelOverlap Red="255" Green="0" Blue="0"/>
+    <ModelSelected Red="255" Green="255" Blue="0"/>
+    <Phonemes Red="255" Green="181" Blue="218"/>
+    <Phrases Red="153" Green="255" Blue="153"/>
+    <ReferenceEffect Red="255" Green="0" Blue="255"/>
+    <ReferenceEffectDisabled Red="255" Green="255" Blue="127"/>
+    <ReferenceEffectLocked Red="255" Green="0" Blue="127"/>
+    <RowHeaderSelected Red="130" Green="178" Blue="207"/>
+    <TextHighlighted Red="0" Green="0" Blue="0"/>
+    <TextUnselected Red="0" Green="0" Blue="0"/>
+    <Timing1 Red="0" Green="255" Blue="255"/>
+    <Timing2 Red="255" Green="0" Blue="0"/>
+    <Timing3 Red="0" Green="255" Blue="0"/>
+    <Timing4 Red="0" Green="0" Blue="255"/>
+    <Timing5 Red="255" Green="255" Blue="0"/>
+    <TimingDefault Red="255" Green="255" Blue="255"/>
+    <Waveform Red="130" Green="178" Blue="207"/>
+    <WaveformMouseMarker Red="0" Green="0" Blue="255"/>
+    <WaveformSelected Red="0" Green="0" Blue="200"/>
+    <WaveformSelectedEffect Red="255" Green="128" Blue="0"/>
+    <Words Red="255" Green="218" Blue="145"/>
+  </colors>
+  <Viewpoints>
+    <DefaultCamera2D name="DEFAULT2D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="20.000000" angleY="5.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.321741" panx="-24.469315" pany="-149.548645" panz="0.000000" zoom_corrx="-484.954895" zoom_corry="-328.955383" is_3d="0"/>
+    <DefaultCamera3D name="DEFAULT3D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="20.000000" angleY="5.000000" angleZ="0.000000" distance="-2000.000000" zoom="2.593743" panx="-2358.670654" pany="49.538696" panz="-206.356949" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
+  </Viewpoints>
+</xrgb>
