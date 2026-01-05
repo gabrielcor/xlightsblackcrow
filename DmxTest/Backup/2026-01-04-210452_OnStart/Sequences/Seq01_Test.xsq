@@ -53,7 +53,7 @@
     </Element>
     <Element type="model" name="Catacumba">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="50" endTime="11900" palette="0"/>
+        <Effect ref="0" name="On" selected="1" startTime="50" endTime="11900" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Despacho">

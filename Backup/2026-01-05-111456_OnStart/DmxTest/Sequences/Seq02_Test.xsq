@@ -53,17 +53,17 @@
     </Element>
     <Element type="model" name="Catacumba">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="50" endTime="11900" palette="0"/>
+        <Effect ref="0" name="On" startTime="50" endTime="5350" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Despacho">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="11850" palette="1"/>
+        <Effect ref="0" name="On" startTime="4100" endTime="10200" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Laboratorio">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="11850" palette="2"/>
+        <Effect ref="0" name="On" selected="1" startTime="8250" endTime="14050" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="01-Lab01">
