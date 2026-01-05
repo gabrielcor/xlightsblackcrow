@@ -19,8 +19,8 @@
   <nextid>1</nextid>
   <Jukebox/>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
@@ -41,6 +41,7 @@
     <Element collapsed="0" type="model" name="04-Desp02" visible="1"/>
     <Element collapsed="0" type="model" name="05-Cat01" visible="1"/>
     <Element collapsed="0" type="model" name="06-Cat02" visible="1"/>
+    <Element collapsed="0" type="model" name="07-Cat2" visible="1"/>
     <Element collapsed="0" type="model" name="07-Cat03" visible="1"/>
     <Element collapsed="0" type="model" name="08-Cat04" visible="1"/>
   </DisplayElements>
@@ -53,17 +54,17 @@
     </Element>
     <Element type="model" name="Catacumba">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="10100" palette="0"/>
+        <Effect ref="0" name="On" startTime="50" endTime="11900" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Despacho">
       <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="0" endTime="10200" palette="1"/>
+        <Effect ref="0" name="On" startTime="0" endTime="11850" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Laboratorio">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="10200" palette="2"/>
+        <Effect ref="0" name="On" selected="1" startTime="0" endTime="11850" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="01-Lab01">
@@ -82,6 +83,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="06-Cat02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="07-Cat2">
       <EffectLayer/>
     </Element>
     <Element type="model" name="07-Cat03">

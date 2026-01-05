@@ -12,8 +12,8 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile/>
-    <sequenceDuration>30.000</sequenceDuration>
+    <mediaFile></mediaFile>
+    <sequenceDuration>10</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
@@ -53,17 +53,17 @@
     </Element>
     <Element type="model" name="Catacumba">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="10100" palette="0"/>
+        <Effect ref="0" name="On" selected="1" startTime="0" endTime="10000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Despacho">
       <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="0" endTime="10200" palette="1"/>
+        <Effect ref="0" name="On" startTime="0" endTime="10000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Laboratorio">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="10200" palette="2"/>
+        <Effect ref="0" name="On" startTime="0" endTime="10000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="01-Lab01">
