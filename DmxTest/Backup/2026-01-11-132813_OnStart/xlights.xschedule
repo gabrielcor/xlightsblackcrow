@@ -44,8 +44,5 @@
     <PlayListStep Name="">
       <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_04_Runas_Solo_Laboratorio.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
     </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\2050_01_PentagramaResuelto.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
   </PlayList>
 </xSchedule>
