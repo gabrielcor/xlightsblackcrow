@@ -22,7 +22,7 @@
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" name="02-Lab02" Controller="DmxLocal" WorldPosX="-320.9800" WorldPosY="1214.0597" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:4">
       <ControllerConnection Port="1" Protocol="OpenDMX" channel="4"/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" Controller="DmxLocal" name="01-Lab01" StringType="4 Channel RGBW" RGBWHandling="RGB Only" WorldPosX="-638.1220" WorldPosY="1214.0397" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:1">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="300" Controller="DmxLocal" name="01-Lab01" WorldPosX="-638.1220" WorldPosY="1214.0397" WorldPosZ="0.0000" X2="170.970673" Y2="-101.924927" Z2="0.000000" versionNumber="7" StartChannel="!DmxLocal:1">
       <ControllerConnection Port="1" Protocol="OpenDMX"/>
     </model>
   </models>
