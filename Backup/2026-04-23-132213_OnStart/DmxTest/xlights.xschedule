@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xSchedule>
+  <Options AudioDevice="" InputAudioDevice="" WWWRoot="xScheduleWeb" CrashBehaviour="Silently exit after sending crash log" MIDITimecodeDevice="" MIDITimecodeFormat="0" MIDITimecodeOffset="0" Password="" DefaultPage="index.html" AllowUnauth="FALSE" City="New York" RemoteLatency="0" RemoteAcceptableJitter="20" SMPTEMode="3" SMPTEDevice="" DefaultVideoSize="100|100" DefaultVideoPos="0|0" AdvancedMode="TRUE" HardwareAcceleratedVideo="FALSE" SuppressAudioOnRemotes="TRUE" KeepScreenOn="FALSE" MinimiseUIUpdates="TRUE" WebServerPort="80" PasswordTimeout="30" ARTNetTimeCodeFormat="1">
+    <Button Label="Play Selected" Command="Play selected playlist" Parameters="" Hotkey="~" Color="green"/>
+    <Button Label="Stop All" Command="Stop all now" Parameters="" Hotkey="~" Color="red"/>
+    <Button Label="Reset All Schedules" Command="Restart all schedules" Parameters="" Hotkey="~" Color="default"/>
+    <Button Label="Next Step" Command="Next step in current playlist" Parameters="" Hotkey="~" Color="default"/>
+    <Button Label="End Gracefully" Command="Jump to play once at end at end of current step and then stop" Parameters="" Hotkey="~" Color="red"/>
+    <Button Label="Add 10 Mins To Schedule" Command="Add to the current schedule n minutes" Parameters="10" Hotkey="~" Color="default"/>
+    <Events/>
+    <OSC MasterPath="/Timecode/%STEPNAME%" RemotePath="/Timecode/%STEPNAME%" IP="255.255.255.255" Time="Seconds (float)" Frame="Default (int)" ServerPort="9000" ClientPort="9000" TimeBased="True"/>
+    <Test Mode="Alternate" Level1="255" Level2="0" Interval="500"/>
+  </Options>
+  <PlayList Name="PlayAll">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_01_Runas_All_Lights.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_02_Runas_Solo_Catacumba.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_03_Runas_Solo_Despacho.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_04_Runas_Solo_Laboratorio.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_05_Runas_Despacho_Laboratorio.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_06_Runas_Catacumba_Despacho.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_06_Runas_Catacumba_Laboratorio.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\2050_01_PentagramaResuelto.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+  </PlayList>
+  <PlayList Name="Play_3100_01_Runas_All_Lights">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_01_Runas_All_Lights.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+  </PlayList>
+</xSchedule>

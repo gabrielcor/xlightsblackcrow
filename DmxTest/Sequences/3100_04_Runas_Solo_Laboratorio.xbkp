@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2025.13</version>
+    <version>2026.06</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,92 +12,94 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile/>
-    <sequenceDuration>10</sequenceDuration>
-    <imageDir/>
+    <mediaFile></mediaFile>
+    <sequenceDuration>300.000</sequenceDuration>
+    <imageDir></imageDir>
   </head>
-  <nextid>1</nextid>
-  <Jukebox/>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=0,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>E_TEXTCTRL_Eff_On_Start=6</Effect>
-    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_Start=0,T_CHECKBOX_Canvas=0,T_CHECKBOX_LayerMorph=0,T_CHOICE_LayerMethod=Normal,T_SLIDER_EffectLayerMix=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0,T_CHECKBOX_Canvas=0,T_CHECKBOX_LayerMorph=0,T_CHOICE_LayerMethod=Normal,T_SLIDER_EffectLayerMix=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=0,T_CHECKBOX_Canvas=0,T_CHECKBOX_LayerMorph=0,T_CHOICE_LayerMethod=Normal,T_SLIDER_EffectLayerMix=0</Effect>
   </EffectDB>
+  <SequenceMedia />
   <DataLayers>
-    <DataLayer lor_params="822104064" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+    <DataLayer lor_params="822104064" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode>" source="&lt;auto-generated>" name="Nutcracker" />
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
-    <Element collapsed="0" type="model" name="All Floods" visible="1"/>
-    <Element collapsed="0" type="model" name="Catacumba" visible="1"/>
-    <Element collapsed="0" type="model" name="Despacho" visible="1"/>
-    <Element collapsed="0" type="model" name="Laboratorio" visible="1"/>
-    <Element collapsed="0" type="model" name="01-Lab01" visible="1"/>
-    <Element collapsed="0" type="model" name="02-Lab02" visible="1"/>
-    <Element collapsed="0" type="model" name="03-Desp01" visible="1"/>
-    <Element collapsed="0" type="model" name="04-Desp02" visible="1"/>
-    <Element collapsed="0" type="model" name="05-Cat01" visible="1"/>
-    <Element collapsed="0" type="model" name="06-Cat02" visible="1"/>
-    <Element collapsed="0" type="model" name="07-Cat03" visible="1"/>
-    <Element collapsed="0" type="model" name="08-Cat04" visible="1"/>
+    <Element collapsed="false" type="timing" name="New Timing" visible="true" views="Master View" active="false" />
+    <Element collapsed="false" type="model" name="All Floods" visible="true" />
+    <Element collapsed="false" type="model" name="Catacumba" visible="true" />
+    <Element collapsed="false" type="model" name="Despacho" visible="true" />
+    <Element collapsed="false" type="model" name="Laboratorio" visible="true" />
+    <Element collapsed="false" type="model" name="01-Lab01" visible="true" />
+    <Element collapsed="false" type="model" name="02-Lab02" visible="true" />
+    <Element collapsed="false" type="model" name="03-Desp01" visible="true" />
+    <Element collapsed="false" type="model" name="04-Desp02" visible="true" />
+    <Element collapsed="false" type="model" name="05-Cat01" visible="true" />
+    <Element collapsed="false" type="model" name="06-Cat02" visible="true" />
+    <Element collapsed="false" type="model" name="07-Cat03" visible="true" />
+    <Element collapsed="false" type="model" name="08-Cat04" visible="true" />
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="All Floods">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="Catacumba">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="Despacho">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="Laboratorio">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="3000" palette="0"/>
-        <Effect ref="1" name="On" id="1" startTime="3000" endTime="6000" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="0" />
+        <Effect ref="1" name="On" id="1" startTime="5000" endTime="10000" palette="0" />
+        <Effect ref="2" name="On" selected="1" id="2" startTime="10000" endTime="15000" palette="0" />
+        <Effect ref="2" name="On" id="3" startTime="15400" endTime="20400" palette="0" />
       </EffectLayer>
     </Element>
     <Element type="model" name="01-Lab01">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="02-Lab02">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="03-Desp01">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="04-Desp02">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="05-Cat01">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="06-Cat02">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="07-Cat03">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
     <Element type="model" name="08-Cat04">
-      <EffectLayer/>
+      <EffectLayer />
     </Element>
   </ElementEffects>
   <lastView>0</lastView>
   <TimingTags>
-    <Tag number="0" position="-1"/>
-    <Tag number="1" position="-1"/>
-    <Tag number="2" position="-1"/>
-    <Tag number="3" position="-1"/>
-    <Tag number="4" position="-1"/>
-    <Tag number="5" position="-1"/>
-    <Tag number="6" position="-1"/>
-    <Tag number="7" position="-1"/>
-    <Tag number="8" position="-1"/>
-    <Tag number="9" position="-1"/>
+    <Tag number="0" position="-1" />
+    <Tag number="1" position="-1" />
+    <Tag number="2" position="-1" />
+    <Tag number="3" position="-1" />
+    <Tag number="4" position="-1" />
+    <Tag number="5" position="-1" />
+    <Tag number="6" position="-1" />
+    <Tag number="7" position="-1" />
+    <Tag number="8" position="-1" />
+    <Tag number="9" position="-1" />
   </TimingTags>
 </xsequence>
