@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>10</sequenceDuration>
     <imageDir/>
   </head>
@@ -23,6 +23,7 @@
   </ColorPalettes>
   <EffectDB>
     <Effect>E_TEXTCTRL_Eff_On_Start=6</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="822104064" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -57,7 +58,14 @@
     </Element>
     <Element type="model" name="Laboratorio">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="3000" palette="0"/>
+        <Effect ref="1" name="On" id="1" startTime="3000" endTime="6000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="6000" endTime="9000" palette="0"/>
+        <Effect ref="1" name="On" id="3" startTime="9000" endTime="12000" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="12000" endTime="15000" palette="0"/>
+        <Effect ref="1" name="On" id="5" startTime="15000" endTime="18000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="18200" endTime="21200" palette="0"/>
+        <Effect ref="1" name="On" id="7" startTime="21200" endTime="24200" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="01-Lab01">

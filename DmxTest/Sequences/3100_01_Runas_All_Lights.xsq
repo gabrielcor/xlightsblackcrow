@@ -13,7 +13,7 @@
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
     <mediaFile></mediaFile>
-    <sequenceDuration>10</sequenceDuration>
+    <sequenceDuration>600</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
@@ -24,6 +24,7 @@
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
+    <Effect>E_TEXTCTRL_Eff_On_End=60,E_TEXTCTRL_Eff_On_Start=60</Effect>
     <Effect>E_TEXTCTRL_Eff_On_Start=6</Effect>
   </EffectDB>
   <DataLayers>
@@ -53,17 +54,17 @@
     </Element>
     <Element type="model" name="Catacumba">
       <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" selected="1" startTime="0" endTime="586500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Despacho">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="10000" palette="1"/>
+        <Effect ref="1" name="On" startTime="0" endTime="582900" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Laboratorio">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="10000" palette="2"/>
+        <Effect ref="1" name="On" startTime="0" endTime="585300" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="01-Lab01">
