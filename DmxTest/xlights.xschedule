@@ -42,4 +42,19 @@
       <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_01_Runas_All_Lights.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
     </PlayListStep>
   </PlayList>
+  <PlayList Name="Play_3100_04_OnlyLab">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_04_Runas_Solo_Laboratorio.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+  </PlayList>
+  <PlayList Name="Gabriel">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_03a_UnSoloFocoRojo_Despacho.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+  </PlayList>
+  <PlayList Name="Play_3100_03a_UnSoloFocoRojo_Despacho.xsq">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="C:\GitRepositories\xlightsblackcrow\DmxTest\Sequences\3100_03a_UnSoloFocoRojo_Despacho _5minutos.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+  </PlayList>
 </xSchedule>
