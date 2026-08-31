@@ -9,7 +9,7 @@
     <artist></artist>
     <album></album>
     <MusicURL></MusicURL>
-    <comment>Twenty-second supernatural flicker for the two Despacho RGB DMX fixtures. Uses only half-brightness red, green, and blue while preserving the established timing, movement, fixture offsets, and blackout gaps.</comment>
+    <comment>Ten-second high-contrast supernatural flicker for the two Despacho RGB DMX fixtures. Full-intensity red with sharp white/orange/violet glitches and real blackout gaps. Fixtures are deliberately offset; the final 300 ms are black.</comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
     <mediaFile></mediaFile>
@@ -17,9 +17,10 @@
     <imageDir></imageDir>
   </head>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#800000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#000080,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#A000FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF3000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>T_CHECKBOX_Canvas=0,T_CHECKBOX_LayerMorph=0,T_CHOICE_LayerMethod=Normal,T_SLIDER_EffectLayerMix=0</Effect>
@@ -80,7 +81,7 @@
         <Effect ref="0" name="On" id="10" startTime="2550" endTime="2850" palette="0" />
         <Effect ref="0" name="On" id="11" startTime="2900" endTime="2950" palette="1" />
         <Effect ref="0" name="On" id="12" startTime="3050" endTime="3350" palette="0" />
-        <Effect ref="0" name="On" id="13" startTime="3400" endTime="3500" palette="2" />
+        <Effect ref="0" name="On" id="13" startTime="3400" endTime="3500" palette="3" />
         <Effect ref="0" name="On" id="14" startTime="3550" endTime="3800" palette="0" />
         <Effect ref="0" name="On" id="15" startTime="3900" endTime="4000" palette="1" />
         <Effect ref="0" name="On" id="16" startTime="4100" endTime="4350" palette="0" />
@@ -92,7 +93,7 @@
         <Effect ref="0" name="On" id="22" startTime="5550" endTime="5850" palette="0" />
         <Effect ref="0" name="On" id="23" startTime="5900" endTime="6000" palette="1" />
         <Effect ref="0" name="On" id="24" startTime="6050" endTime="6350" palette="0" />
-        <Effect ref="0" name="On" id="25" startTime="6400" endTime="6500" palette="2" />
+        <Effect ref="0" name="On" id="25" startTime="6400" endTime="6500" palette="3" />
         <Effect ref="0" name="On" id="26" startTime="6550" endTime="6850" palette="0" />
         <Effect ref="0" name="On" id="27" startTime="6900" endTime="7000" palette="1" />
         <Effect ref="0" name="On" id="28" startTime="7050" endTime="7350" palette="0" />
@@ -119,7 +120,7 @@
         <Effect ref="0" name="On" id="49" startTime="12350" endTime="12650" palette="0" />
         <Effect ref="0" name="On" id="50" startTime="12700" endTime="12750" palette="1" />
         <Effect ref="0" name="On" id="51" startTime="12850" endTime="13150" palette="0" />
-        <Effect ref="0" name="On" id="52" startTime="13200" endTime="13300" palette="2" />
+        <Effect ref="0" name="On" id="52" startTime="13200" endTime="13300" palette="3" />
         <Effect ref="0" name="On" id="53" startTime="13350" endTime="13600" palette="0" />
         <Effect ref="0" name="On" id="54" startTime="13700" endTime="13800" palette="1" />
         <Effect ref="0" name="On" id="55" startTime="13900" endTime="14150" palette="0" />
@@ -131,7 +132,7 @@
         <Effect ref="0" name="On" id="61" startTime="15350" endTime="15650" palette="0" />
         <Effect ref="0" name="On" id="62" startTime="15700" endTime="15800" palette="1" />
         <Effect ref="0" name="On" id="63" startTime="15850" endTime="16150" palette="0" />
-        <Effect ref="0" name="On" id="64" startTime="16200" endTime="16300" palette="2" />
+        <Effect ref="0" name="On" id="64" startTime="16200" endTime="16300" palette="3" />
         <Effect ref="0" name="On" id="65" startTime="16350" endTime="16650" palette="0" />
         <Effect ref="0" name="On" id="66" startTime="16700" endTime="16800" palette="1" />
         <Effect ref="0" name="On" id="67" startTime="16850" endTime="17150" palette="0" />
@@ -151,7 +152,7 @@
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="100" palette="1" />
         <Effect ref="0" name="On" id="1" startTime="150" endTime="350" palette="0" />
-        <Effect ref="0" name="On" id="2" startTime="400" endTime="650" palette="2" />
+        <Effect ref="0" name="On" id="2" startTime="400" endTime="650" palette="3" />
         <Effect ref="0" name="On" id="3" startTime="700" endTime="800" palette="1" />
         <Effect ref="0" name="On" id="4" startTime="900" endTime="1150" palette="0" />
         <Effect ref="0" name="On" id="5" startTime="1200" endTime="1300" palette="1" />
@@ -164,7 +165,7 @@
         <Effect ref="0" name="On" id="12" startTime="2800" endTime="3100" palette="0" />
         <Effect ref="0" name="On" id="13" startTime="3150" endTime="3200" palette="1" />
         <Effect ref="0" name="On" id="14" startTime="3250" endTime="3550" palette="0" />
-        <Effect ref="0" name="On" id="15" startTime="3600" endTime="3700" palette="2" />
+        <Effect ref="0" name="On" id="15" startTime="3600" endTime="3700" palette="3" />
         <Effect ref="0" name="On" id="16" startTime="3750" endTime="4050" palette="0" />
         <Effect ref="0" name="On" id="17" startTime="4100" endTime="4150" palette="1" />
         <Effect ref="0" name="On" id="18" startTime="4200" endTime="4500" palette="0" />
@@ -176,7 +177,7 @@
         <Effect ref="0" name="On" id="24" startTime="5650" endTime="5950" palette="0" />
         <Effect ref="0" name="On" id="25" startTime="6000" endTime="6050" palette="1" />
         <Effect ref="0" name="On" id="26" startTime="6100" endTime="6400" palette="0" />
-        <Effect ref="0" name="On" id="27" startTime="6450" endTime="6550" palette="2" />
+        <Effect ref="0" name="On" id="27" startTime="6450" endTime="6550" palette="3" />
         <Effect ref="0" name="On" id="28" startTime="6600" endTime="6900" palette="0" />
         <Effect ref="0" name="On" id="29" startTime="6950" endTime="7000" palette="1" />
         <Effect ref="0" name="On" id="30" startTime="7050" endTime="7350" palette="0" />
@@ -192,7 +193,7 @@
         <Effect ref="0" name="On" id="40" startTime="9450" endTime="9700" palette="0" />
         <Effect ref="0" name="On" id="41" startTime="9800" endTime="9900" palette="1" />
         <Effect ref="0" name="On" id="42" startTime="9950" endTime="10150" palette="0" />
-        <Effect ref="0" name="On" id="43" startTime="10200" endTime="10450" palette="2" />
+        <Effect ref="0" name="On" id="43" startTime="10200" endTime="10450" palette="3" />
         <Effect ref="0" name="On" id="44" startTime="10500" endTime="10600" palette="1" />
         <Effect ref="0" name="On" id="45" startTime="10700" endTime="10950" palette="0" />
         <Effect ref="0" name="On" id="46" startTime="11000" endTime="11100" palette="1" />
@@ -205,7 +206,7 @@
         <Effect ref="0" name="On" id="53" startTime="12600" endTime="12900" palette="0" />
         <Effect ref="0" name="On" id="54" startTime="12950" endTime="13000" palette="1" />
         <Effect ref="0" name="On" id="55" startTime="13050" endTime="13350" palette="0" />
-        <Effect ref="0" name="On" id="56" startTime="13400" endTime="13500" palette="2" />
+        <Effect ref="0" name="On" id="56" startTime="13400" endTime="13500" palette="3" />
         <Effect ref="0" name="On" id="57" startTime="13550" endTime="13850" palette="0" />
         <Effect ref="0" name="On" id="58" startTime="13900" endTime="13950" palette="1" />
         <Effect ref="0" name="On" id="59" startTime="14000" endTime="14300" palette="0" />
@@ -217,7 +218,7 @@
         <Effect ref="0" name="On" id="65" startTime="15450" endTime="15750" palette="0" />
         <Effect ref="0" name="On" id="66" startTime="15800" endTime="15850" palette="1" />
         <Effect ref="0" name="On" id="67" startTime="15900" endTime="16200" palette="0" />
-        <Effect ref="0" name="On" id="68" startTime="16250" endTime="16350" palette="2" />
+        <Effect ref="0" name="On" id="68" startTime="16250" endTime="16350" palette="3" />
         <Effect ref="0" name="On" id="69" startTime="16400" endTime="16700" palette="0" />
         <Effect ref="0" name="On" id="70" startTime="16750" endTime="16800" palette="1" />
         <Effect ref="0" name="On" id="71" startTime="16850" endTime="17150" palette="0" />
