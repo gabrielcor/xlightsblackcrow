@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2026.06</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment>Ten-second high-contrast supernatural flicker for the two Despacho RGB DMX fixtures. Full-intensity red with sharp white/orange/violet glitches and real blackout gaps. Fixtures are deliberately offset; the final 300 ms are black.</comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>10.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF3000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#A000FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0,C_SLIDER_SparkleFrequency=0</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>T_CHECKBOX_Canvas=0,T_CHECKBOX_LayerMorph=0,T_CHOICE_LayerMethod=Normal,T_SLIDER_EffectLayerMix=0</Effect>
+  </EffectDB>
+  <SequenceMedia />
+  <DataLayers>
+    <DataLayer lor_params="822104064" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode>" source="&lt;auto-generated>" name="Nutcracker" />
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="false" type="timing" name="New Timing" visible="true" views="Master View" active="false" />
+    <Element collapsed="false" type="model" name="All Floods" visible="true" />
+    <Element collapsed="false" type="model" name="Catacumba" visible="true" />
+    <Element collapsed="false" type="model" name="Despacho" visible="true" />
+    <Element collapsed="false" type="model" name="Laboratorio" visible="true" />
+    <Element collapsed="false" type="model" name="01-Lab01" visible="true" />
+    <Element collapsed="false" type="model" name="02-Lab02" visible="true" />
+    <Element collapsed="false" type="model" name="03-Desp01" visible="true" />
+    <Element collapsed="false" type="model" name="04-Desp02" visible="true" />
+    <Element collapsed="false" type="model" name="05-Cat01" visible="true" />
+    <Element collapsed="false" type="model" name="06-Cat02" visible="true" />
+    <Element collapsed="false" type="model" name="07-Cat03" visible="true" />
+    <Element collapsed="false" type="model" name="08-Cat04" visible="true" />
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="All Floods">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Catacumba">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Despacho">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Laboratorio">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="01-Lab01">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="02-Lab02">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="03-Desp01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="250" palette="0" />
+        <Effect ref="0" name="On" id="1" startTime="300" endTime="400" palette="1" />
+        <Effect ref="0" name="On" id="2" startTime="450" endTime="700" palette="0" />
+        <Effect ref="0" name="On" id="3" startTime="850" endTime="950" palette="1" />
+        <Effect ref="0" name="On" id="4" startTime="1000" endTime="1300" palette="0" />
+        <Effect ref="0" name="On" id="5" startTime="1400" endTime="1450" palette="3" />
+        <Effect ref="0" name="On" id="6" startTime="1500" endTime="1750" palette="0" />
+        <Effect ref="0" name="On" id="7" startTime="1800" endTime="1900" palette="1" />
+        <Effect ref="0" name="On" id="8" startTime="2000" endTime="2300" palette="0" />
+        <Effect ref="0" name="On" id="9" startTime="2350" endTime="2450" palette="1" />
+        <Effect ref="0" name="On" id="10" startTime="2550" endTime="2850" palette="0" />
+        <Effect ref="0" name="On" id="11" startTime="2900" endTime="2950" palette="1" />
+        <Effect ref="0" name="On" id="12" startTime="3050" endTime="3350" palette="0" />
+        <Effect ref="0" name="On" id="13" startTime="3400" endTime="3500" palette="2" />
+        <Effect ref="0" name="On" id="14" startTime="3550" endTime="3800" palette="0" />
+        <Effect ref="0" name="On" id="15" startTime="3900" endTime="4000" palette="1" />
+        <Effect ref="0" name="On" id="16" startTime="4100" endTime="4350" palette="0" />
+        <Effect ref="0" name="On" id="17" startTime="4400" endTime="4450" palette="1" />
+        <Effect ref="0" name="On" id="18" startTime="4550" endTime="4850" palette="0" />
+        <Effect ref="0" name="On" id="19" startTime="4900" endTime="5000" palette="3" />
+        <Effect ref="0" name="On" id="20" startTime="5050" endTime="5350" palette="0" />
+        <Effect ref="0" name="On" id="21" startTime="5400" endTime="5500" palette="1" />
+        <Effect ref="0" name="On" id="22" startTime="5550" endTime="5850" palette="0" />
+        <Effect ref="0" name="On" id="23" startTime="5900" endTime="6000" palette="1" />
+        <Effect ref="0" name="On" id="24" startTime="6050" endTime="6350" palette="0" />
+        <Effect ref="0" name="On" id="25" startTime="6400" endTime="6500" palette="2" />
+        <Effect ref="0" name="On" id="26" startTime="6550" endTime="6850" palette="0" />
+        <Effect ref="0" name="On" id="27" startTime="6900" endTime="7000" palette="1" />
+        <Effect ref="0" name="On" id="28" startTime="7050" endTime="7350" palette="0" />
+        <Effect ref="0" name="On" id="29" startTime="7400" endTime="7450" palette="1" />
+        <Effect ref="0" name="On" id="30" startTime="7500" endTime="7800" palette="0" />
+        <Effect ref="0" name="On" id="31" startTime="7850" endTime="8000" palette="3" />
+        <Effect ref="0" name="On" id="32" startTime="8050" endTime="8350" palette="0" />
+        <Effect ref="0" name="On" id="33" startTime="8400" endTime="8500" palette="1" />
+        <Effect ref="0" name="On" id="34" startTime="8550" endTime="8800" palette="0" />
+        <Effect ref="0" name="On" id="35" startTime="8850" endTime="8900" palette="1" />
+        <Effect ref="0" name="On" id="36" startTime="8950" endTime="9200" palette="0" />
+        <Effect ref="0" name="On" id="37" startTime="9250" endTime="9350" palette="1" />
+        <Effect ref="0" name="On" id="38" startTime="9400" endTime="9700" palette="0" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="04-Desp02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="100" palette="1" />
+        <Effect ref="0" name="On" id="1" startTime="150" endTime="350" palette="0" />
+        <Effect ref="0" name="On" id="2" startTime="400" endTime="650" palette="2" />
+        <Effect ref="0" name="On" id="3" startTime="700" endTime="800" palette="1" />
+        <Effect ref="0" name="On" id="4" startTime="900" endTime="1150" palette="0" />
+        <Effect ref="0" name="On" id="5" startTime="1200" endTime="1300" palette="1" />
+        <Effect ref="0" name="On" id="6" startTime="1350" endTime="1650" palette="0" />
+        <Effect ref="0" name="On" id="7" startTime="1700" endTime="1800" palette="3" />
+        <Effect ref="0" name="On" id="8" startTime="1850" endTime="2150" palette="0" />
+        <Effect ref="0" name="On" id="9" startTime="2200" endTime="2250" palette="1" />
+        <Effect ref="0" name="On" id="10" startTime="2300" endTime="2600" palette="0" />
+        <Effect ref="0" name="On" id="11" startTime="2650" endTime="2750" palette="1" />
+        <Effect ref="0" name="On" id="12" startTime="2800" endTime="3100" palette="0" />
+        <Effect ref="0" name="On" id="13" startTime="3150" endTime="3200" palette="1" />
+        <Effect ref="0" name="On" id="14" startTime="3250" endTime="3550" palette="0" />
+        <Effect ref="0" name="On" id="15" startTime="3600" endTime="3700" palette="2" />
+        <Effect ref="0" name="On" id="16" startTime="3750" endTime="4050" palette="0" />
+        <Effect ref="0" name="On" id="17" startTime="4100" endTime="4150" palette="1" />
+        <Effect ref="0" name="On" id="18" startTime="4200" endTime="4500" palette="0" />
+        <Effect ref="0" name="On" id="19" startTime="4550" endTime="4650" palette="1" />
+        <Effect ref="0" name="On" id="20" startTime="4700" endTime="5000" palette="0" />
+        <Effect ref="0" name="On" id="21" startTime="5050" endTime="5100" palette="3" />
+        <Effect ref="0" name="On" id="22" startTime="5150" endTime="5450" palette="0" />
+        <Effect ref="0" name="On" id="23" startTime="5500" endTime="5600" palette="1" />
+        <Effect ref="0" name="On" id="24" startTime="5650" endTime="5950" palette="0" />
+        <Effect ref="0" name="On" id="25" startTime="6000" endTime="6050" palette="1" />
+        <Effect ref="0" name="On" id="26" startTime="6100" endTime="6400" palette="0" />
+        <Effect ref="0" name="On" id="27" startTime="6450" endTime="6550" palette="2" />
+        <Effect ref="0" name="On" id="28" startTime="6600" endTime="6900" palette="0" />
+        <Effect ref="0" name="On" id="29" startTime="6950" endTime="7000" palette="1" />
+        <Effect ref="0" name="On" id="30" startTime="7050" endTime="7350" palette="0" />
+        <Effect ref="0" name="On" id="31" startTime="7400" endTime="7500" palette="1" />
+        <Effect ref="0" name="On" id="32" startTime="7550" endTime="7850" palette="0" />
+        <Effect ref="0" name="On" id="33" startTime="7900" endTime="7950" palette="3" />
+        <Effect ref="0" name="On" id="34" startTime="8000" endTime="8300" palette="0" />
+        <Effect ref="0" name="On" id="35" startTime="8350" endTime="8450" palette="1" />
+        <Effect ref="0" name="On" id="36" startTime="8500" endTime="8800" palette="0" />
+        <Effect ref="0" name="On" id="37" startTime="8850" endTime="8900" palette="1" />
+        <Effect ref="0" name="On" id="38" startTime="8950" endTime="9250" palette="0" />
+        <Effect ref="0" name="On" id="39" startTime="9300" endTime="9400" palette="1" />
+        <Effect ref="0" name="On" id="40" startTime="9450" endTime="9700" palette="0" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="05-Cat01">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="06-Cat02">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="07-Cat03">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="08-Cat04">
+      <EffectLayer />
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1" />
+    <Tag number="1" position="-1" />
+    <Tag number="2" position="-1" />
+    <Tag number="3" position="-1" />
+    <Tag number="4" position="-1" />
+    <Tag number="5" position="-1" />
+    <Tag number="6" position="-1" />
+    <Tag number="7" position="-1" />
+    <Tag number="8" position="-1" />
+    <Tag number="9" position="-1" />
+  </TimingTags>
+</xsequence>
